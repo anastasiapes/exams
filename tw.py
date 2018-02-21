@@ -4,11 +4,6 @@ import re
 from collections import Counter
 from tweepy import OAuthHandler
 
-consumer_key = 'h2t48iEeudgzJwM2slgE0nlEd'
-consumer_secret = 'WkVFKtYnzXtY8X2dvg62Bn17jtRL4BRXum0fkT15TRAgSgAMr4'
-access_token = '3353314221-G13JX4dS9UupqCut639aXVmlyMMixKRjGIxsd9U'
-access_secret = 'XNWHPZkF94Y6yf3PBe2cQXwiH6S4wNVDe0HW4zYAh6aT'
-
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 
